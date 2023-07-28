@@ -1,0 +1,121 @@
+
+:root{
+    --cor--preta: #000000;
+    --cor--branca: #f6f6f6;
+    --cor--azul: #22d4fd;
+    --cor--cinza: #272727;
+
+    --fonte--kora:'Krona One', sans-serif;
+    --fonte--monserra: 'Montserrat', sans-serif;
+    
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    height: 100vh;
+    background-color: var(--cor--preta);
+    color: var(--cor--branca);
+}
+
+.texto__destaque{
+    color: var(--cor--azul);
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+    
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+.cabecalho__menu__link{
+    font-family: var(--fonte--monserra);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor--azul);
+    text-decoration: none;
+}
+
+.apresentacao{
+    padding:  7% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 2.25rem;
+    font-family: var(--fonte--kora);
+    
+
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 1.5rem;
+    font-family: var(--fonte--monserra);
+
+}
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    gap: 32px;
+
+}
+.apresentacao__links__subtitulo{
+    font-family: var(--fonte--kora);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.apresentacao__link__navegacao {
+    /* background-color: #22d4fd; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor--azul);
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--cor--branca);
+    font-weight: 600;
+    font-family: var(--fonte--monserra); 
+}
+.apresentacao__link__link:hover{
+    background-color: var(--cor--cinza);
+}
+.apresentacao__imagem{
+    width: 50%;
+
+}
+
+.rodape{
+    padding: 24px;
+    color: var(--cor--preta);
+    background-color: var(--cor--azul);
+    text-align: center;
+    font-family: var(--fonte--monserra); 
+    font-size: 1.5rem;
+    font-weight: 400;
+
+}
